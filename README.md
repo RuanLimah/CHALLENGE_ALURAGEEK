@@ -27,5 +27,14 @@ A aplicação consome APIs para realizar operações CRUD. As requisições supo
 
 ## Deploy
 
-O projeto pode ser acessado no seguinte link: [Link de Deploy](coloque-aqui-o-link-do-seu-deploy)
-```
+O projeto pode ser acessado no seguinte link: [Link de Deploy](https://challenge-alurageek-theta.vercel.app/)
+
+## Rodando a Aplicação Localmente
+
+Para rodar a aplicação localmente e armazenar os updates, você precisará configurar um servidor localhost. Recomendamos o uso do Node.js para isso. Certifique-se de ter o Node.js instalado em sua máquina e, em seguida, siga estes passos:
+
+1. Clone este repositório em sua máquina.
+2. Abra o terminal e navegue até o diretório do projeto.
+3. Instale as dependências do projeto executando o comando `npm install`.
+4. Inicie o servidor local executando o comando `npm start`.
+5. Acesse a aplicação em seu navegador, geralmente em `http://localhost:3000`.
