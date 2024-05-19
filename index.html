@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header >
+        <div class="containerHeader">
+            <img class="iconAlura"src="assets/aluraGeekheart.svg" alt="icone aluraGeek">
+        </div>
+    </header>
+    <main>
+        <section class="forms">
+            <h1 class="titulo">Adicionar Games:</h1>
+            <form class="containerForms" data-form>
+                <div class="conteudo-forms">
+                    <input data-name type="text" placeholder="Nome do produto">
+                    <input data-price type="text" placeholder="valor">
+                    <input data-image type="url"  placeholder="Url da imagem">
+                </div>
+                <div class="buttons">
+                    <button class="btn-guardar" type="submit">Guardar</button>
+                    <button class="btn-limpar" id="btn-limpar" type="button">Limpar</button>
+                </div>
+            </form>
+        </section>
+        <section class="container-produtos">
+            <h1 class="titulo">Games:</h1>
+            <div class="local-produto" class="card-game" data-produto>
+                
+            </div>
+        </section>
+    </main>
+    <footer class="container-rodape">
+        <div class="rodape"> 
+            <img src="assets/aluraGeekheart.svg" alt="">
+            <h1 class="rodape-texto" >Desenvolvido por Ruan Lima</h1>
+            <span>Alura Latam - 2024 </span>
+        </div>
+    </footer>
+    
+    <script type="module" src="./js/adicionarProduto.js"></script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
