@@ -27,7 +27,7 @@ A aplicação consome APIs para realizar operações CRUD. As requisições supo
 
 ## Deploy
 
-O projeto pode ser acessado no seguinte link: [Link de Deploy](https://challenge-alurageek-theta.vercel.app/)
+O projeto pode ser acessado no seguinte link: [Link de Deploy](https://challenge-alurageek-nine.vercel.app/)
 
 ## Rodando a Aplicação Localmente
 
